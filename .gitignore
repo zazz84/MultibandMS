@@ -136,3 +136,7 @@ JuceLibraryCode/include_juce_gui_extra.mm
 JuceLibraryCode/JuceHeader.h
 JuceLibraryCode/JucePluginDefines.h
 JuceLibraryCode/ReadMe.txt
+Builds/VisualStudio2017/.vs/MultibandMS/v15/Browse.VC.opendb
+Builds/VisualStudio2017/.vs/MultibandMS/v15/Solution.VC.db-shm
+Builds/VisualStudio2017/.vs/MultibandMS/v15/Solution.VC.db-wal
+Builds/VisualStudio2017/x64/Debug/VST3/MultibandMS_VST3.tlog/link.delete.1.tlog

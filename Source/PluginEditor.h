@@ -21,9 +21,9 @@ public:
 		setColour(juce::Slider::thumbColourId, juce::Colours::red);
 	}
 
-	juce::Colour light = juce::Colour::fromHSV(0.42f, 0.5f, 0.6f, 1.0f);
-	juce::Colour medium = juce::Colour::fromHSV(0.42f, 0.5f, 0.5f, 1.0f);
-	juce::Colour dark = juce::Colour::fromHSV(0.42f, 0.5f, 0.4f, 1.0f);
+	static const juce::Colour lightColour;
+	static const juce::Colour mediumColour;
+	static const juce::Colour darkColour;
 
 	static const int SCALE = 70;
 	static const int FONT_SIZE = 24;
@@ -39,9 +39,10 @@ public:
 		auto angle = rotaryStartAngle + sliderPos * (rotaryEndAngle - rotaryStartAngle);
 
 		// outline
-		const float lineThickness = 6.0f;
+		//const float lineThickness = 6.0f;
+		const float lineThickness = height / 28.0f;
 		
-		g.setColour(medium);
+		g.setColour(mediumColour);
 		g.drawEllipse(rx, ry, rw, rw, lineThickness);
 
 		juce::Path p;
@@ -51,7 +52,7 @@ public:
 		p.applyTransform(juce::AffineTransform::rotation(angle).translated(centreX, centreY));
 
 		// pointer
-		g.setColour(medium);
+		g.setColour(mediumColour);
 		g.fillPath(p);
 	}
 
@@ -81,9 +82,10 @@ public:
 
 	// GUI setup
 	static const int N_SLIDERS = 6;
+	static const int LOGO_HEIGHT = 20;
 	static const int SLIDER_WIDTH = 140;
 	static const int SLIDER_FONT_SIZE = 20;
-	static const int FONT_DIVISOR = 9;	
+	static const int FONT_DIVISOR = 10;	
 	//==============================================================================
 	void paint (juce::Graphics&) override;
     void resized() override;
@@ -92,8 +94,8 @@ public:
 	typedef juce::AudioProcessorValueTreeState::ComboBoxAttachment ComboBoxAttachment;
 
 private:
-    // This reference is provided as a quick way for your editor to
-    // access the processor object that created it.
+	inline int getSliderWidth() { return (int)(getWidth() / 5.6f); }
+
     MultibandMSAudioProcessor& audioProcessor;
 
 	ZazzLookAndFeel zazzLookAndFeel;
@@ -103,6 +105,9 @@ private:
 	juce::Label m_labels[N_SLIDERS] = {};
 	juce::Slider m_sliders[N_SLIDERS] = {};
 	std::unique_ptr<SliderAttachment> m_sliderAttachment[N_SLIDERS] = {};
+
+	juce::Label m_pluginName;
+	juce::Label m_developerName;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MultibandMSAudioProcessorEditor)
 };

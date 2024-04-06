@@ -81,56 +81,6 @@ protected:
 };
 
 //==============================================================================
-class LinkwitzRileyForthOrder
-{
-public:
-	LinkwitzRileyForthOrder();
-
-	void init(int sampleRate);
-	void setFrequency(float frequency);
-	float processLP(float in);
-	float processHP(float in);
-
-protected:
-	float m_SampleRate;
-
-	float m_b1 = 0.0f;
-	float m_b2 = 0.0f;
-	float m_b3 = 0.0f;
-	float m_b4 = 0.0f;
-
-	float m_a0_lp = 0.0f;
-	float m_a1_lp = 0.0f;
-	float m_a2_lp = 0.0f;
-	float m_a3_lp = 0.0f;
-	float m_a4_lp = 0.0f;
-
-	float m_a0_hp = 0.0f;
-	float m_a1_hp = 0.0f;
-	float m_a2_hp = 0.0f;
-	float m_a3_hp = 0.0f;
-	float m_a4_hp = 0.0f;
-
-	float m_xm4_lp = 0.0f;
-	float m_xm3_lp = 0.0f;
-	float m_xm2_lp = 0.0f;
-	float m_xm1_lp = 0.0f;
-	float m_ym4_lp = 0.0f;
-	float m_ym3_lp = 0.0f;
-	float m_ym2_lp = 0.0f;
-	float m_ym1_lp = 0.0f;
-
-	float m_xm4_hp = 0.0f;
-	float m_xm3_hp = 0.0f;
-	float m_xm2_hp = 0.0f;
-	float m_xm1_hp = 0.0f;
-	float m_ym4_hp = 0.0f;
-	float m_ym3_hp = 0.0f;
-	float m_ym2_hp = 0.0f;
-	float m_ym1_hp = 0.0f;
-};
-
-//==============================================================================
 class MultibandMSAudioProcessor  : public juce::AudioProcessor
                             #if JucePlugin_Enable_ARA
                              , public juce::AudioProcessorARAExtension
