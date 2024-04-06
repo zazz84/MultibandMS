@@ -140,3 +140,66 @@ Builds/VisualStudio2017/.vs/MultibandMS/v15/Browse.VC.opendb
 Builds/VisualStudio2017/.vs/MultibandMS/v15/Solution.VC.db-shm
 Builds/VisualStudio2017/.vs/MultibandMS/v15/Solution.VC.db-wal
 Builds/VisualStudio2017/x64/Debug/VST3/MultibandMS_VST3.tlog/link.delete.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/resources.res
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/rc.write.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/rc.read.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/rc.command.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/MultibandMS_VST3.write.1u.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/MultibandMS_VST3.lastbuildstate
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/link.write.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/link.read.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/link.command.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/CL.write.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/CL.read.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.tlog/CL.command.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS_VST3.log
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS.vst3/Contents/x86_64-win/MultibandMS.vst3
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS.vst3/Contents/Resources/moduleinfo.json
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS.pdb
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS.lib
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS.exp
+Builds/VisualStudio2017/x64/Release/VST3/MultibandMS.dll
+Builds/VisualStudio2017/x64/Release/VST3/include_juce_audio_plugin_client_VST3.obj
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/resources.res
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/MultibandMS_VST3ManifestHelper.log
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/rc.write.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/rc.read.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/rc.command.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/MultibandMS_VST3ManifestHelper.lastbuildstate
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/link.write.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/link.read.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/link.command.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/CL.write.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/CL.read.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/Multiban.80E739ED.tlog/CL.command.1.tlog
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/juce_VST3ManifestHelper.obj
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/juce_vst3_helper.pdb
+Builds/VisualStudio2017/x64/Release/VST3 Manifest Helper/juce_vst3_helper.exe
+Builds/VisualStudio2017/x64/Release/Shared Code/PluginProcessor.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/PluginEditor.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/MultibandMS_SharedCode.log
+Builds/VisualStudio2017/x64/Release/Shared Code/MultibandMS.pdb
+Builds/VisualStudio2017/x64/Release/Shared Code/MultibandMS.lib
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/MultibandMS_SharedCode.lastbuildstate
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/Lib.command.1.tlog
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/Lib-link.write.1.tlog
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/Lib-link.read.1.tlog
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/CL.read.1.tlog
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/CL.command.1.tlog
+Builds/VisualStudio2017/x64/Release/Shared Code/Multiban.A33A4D6D.tlog/CL.11060.write.1.tlog
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_gui_extra.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_gui_basics.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_graphics.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_events.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_data_structures.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_core.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_utils.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_processors_lv2_libs.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_processors_ara.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_processors.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_plugin_client_ARA.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_formats.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_devices.obj
+Builds/VisualStudio2017/x64/Release/Shared Code/include_juce_audio_basics.obj
+Builds/VisualStudio2017/.vs/MultibandMS/v15/ipch/AutoPCH/da31c3234ad9e889/PLUGINEDITOR.ipch
+Builds/VisualStudio2017/.vs/MultibandMS/v15/ipch/AutoPCH/125d58a803cdf3fa/PLUGINEDITOR.ipch
